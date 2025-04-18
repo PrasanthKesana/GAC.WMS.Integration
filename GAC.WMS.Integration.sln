@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAC.WMS.Integration.Application", "GAC.WMS.Integration.Application\GAC.WMS.Integration.Application.csproj", "{48D9E571-EBA3-4C86-9685-8772C1D9C4AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAC.WMS.Integration.Domain", "GAC.WMS.Integration.Domain\GAC.WMS.Integration.Domain.csproj", "{046F037E-2B8E-4FCF-8E54-C3F491A98D90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAC.WMS.Integration.FileProcessor", "GAC.WMS.Integration.FileProcessor\GAC.WMS.Integration.FileProcessor.csproj", "{D15AEFC6-5B75-4073-9155-A51E4ADBA118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAC.WMS.Integration.Infrastructure", "GAC.WMS.Integration.Infrastructure\GAC.WMS.Integration.Infrastructure.csproj", "{0C02A509-4456-4756-8892-FF85327C9CB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FA0E4D6C-56B6-4B39-918D-7DB8D73D0685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAC.WMS.Integration.Application.Tests", "GAC.WMS.Integration.Application.Tests\GAC.WMS.Integration.Application.Tests.csproj", "{321E9C35-8BE8-4AAE-92F1-A0C47407D8B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48D9E571-EBA3-4C86-9685-8772C1D9C4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D9E571-EBA3-4C86-9685-8772C1D9C4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D9E571-EBA3-4C86-9685-8772C1D9C4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D9E571-EBA3-4C86-9685-8772C1D9C4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046F037E-2B8E-4FCF-8E54-C3F491A98D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046F037E-2B8E-4FCF-8E54-C3F491A98D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046F037E-2B8E-4FCF-8E54-C3F491A98D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046F037E-2B8E-4FCF-8E54-C3F491A98D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15AEFC6-5B75-4073-9155-A51E4ADBA118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15AEFC6-5B75-4073-9155-A51E4ADBA118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15AEFC6-5B75-4073-9155-A51E4ADBA118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15AEFC6-5B75-4073-9155-A51E4ADBA118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C02A509-4456-4756-8892-FF85327C9CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C02A509-4456-4756-8892-FF85327C9CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C02A509-4456-4756-8892-FF85327C9CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C02A509-4456-4756-8892-FF85327C9CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321E9C35-8BE8-4AAE-92F1-A0C47407D8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321E9C35-8BE8-4AAE-92F1-A0C47407D8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321E9C35-8BE8-4AAE-92F1-A0C47407D8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321E9C35-8BE8-4AAE-92F1-A0C47407D8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48D9E571-EBA3-4C86-9685-8772C1D9C4AE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{046F037E-2B8E-4FCF-8E54-C3F491A98D90} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D15AEFC6-5B75-4073-9155-A51E4ADBA118} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0C02A509-4456-4756-8892-FF85327C9CB7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{321E9C35-8BE8-4AAE-92F1-A0C47407D8B3} = {FA0E4D6C-56B6-4B39-918D-7DB8D73D0685}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2A3BE6B-29E7-481D-BFA9-C37322D35E6D}
+	EndGlobalSection
+EndGlobal
