@@ -1,11 +1,14 @@
 using System.Reflection;
 using System.Text.Json.Serialization;
+using FluentValidation.AspNetCore;
+using FluentValidation;
 using GAC.WMS.Integration.Application.Extensions;
 using GAC.WMS.Integration.Application.Filters;
 using GAC.WMS.Integration.Application.Interfaces;
 using GAC.WMS.Integration.Application.Mappers;
 using GAC.WMS.Integration.Application.Middleware;
 using GAC.WMS.Integration.Application.Services;
+using GAC.WMS.Integration.Application.Validators;
 using GAC.WMS.Integration.Domain.Interfaces.Repositories;
 using GAC.WMS.Integration.Infrastructure;
 using GAC.WMS.Integration.Infrastructure.Repository;
@@ -43,6 +46,8 @@ builder.Services.AddScoped<IPurchaseOrderService, PurchaseOrderService>();
 builder.Services.AddScoped<ISalesOrderService, SalesOrderService>();
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddValidatorsFromAssemblyContaining<CustomerDtoValidator>();
+builder.Services.AddFluentValidationAutoValidation();
 
 // Swagger
 builder.Services.AddEndpointsApiExplorer();
